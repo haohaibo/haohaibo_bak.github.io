@@ -4,8 +4,8 @@ title: Blog
 category: blog
 ---
 
-<link rel="stylesheet" href="../css/blog.css">
-<div class="subheader-container">
+<!--link rel="stylesheet" href="../css/blog.css"-->
+<!--div class="subheader-container">
 <div class = "inner">
 <nav class = "sub-nav">
     <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Home</a>
@@ -40,4 +40,19 @@ category: blog
     </a>
     {% endfor %}
   </ul>
-</section>
+</section-->
+
+<strong>Blog posts</strong>
+  </div>
+  <blockquote>
+    <!--ul>
+      {% for post in site.posts limit:3 %}
+      <li class="post-list-in-index">
+      <small class="post-list-date-in-index">{{ post.date | date_to_string }}</small><a  href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul-->
+    <p>
+      Coming soon..
+    </p>
+  </blockquote>
